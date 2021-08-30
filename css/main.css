@@ -113,6 +113,9 @@
   display: flex;
   justify-content: center;
 }
+.team__social-link {
+  fill: var(--icon-color);
+}
 .clients__list {
   display: flex;
 }

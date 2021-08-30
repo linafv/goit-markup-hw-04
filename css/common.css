@@ -172,9 +172,6 @@ button {
   align-items: center;
   border-radius: 50%;
 }
-.team__social-link {
-  fill: var(--icon-color);
-}
 .social-list__link:hover,
 .social-list__link:focus {
   background-color: var(--accent-color);
