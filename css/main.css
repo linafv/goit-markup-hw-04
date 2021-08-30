@@ -113,24 +113,6 @@
   display: flex;
   justify-content: center;
 }
-.social-list__item:not(:last-child) {
-  margin-right: 10px;
-}
-.social-list__link {
-  height: 44px;
-  width: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  fill: var(--icon-color);
-}
-.social-list__link:hover,
-.social-list__link:focus {
-  background-color: var(--accent-color);
-  fill: var(--light-text-color);
-  transition: 0.2s;
-}
 .clients__list {
   display: flex;
 }
