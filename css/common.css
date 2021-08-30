@@ -104,11 +104,20 @@ button {
 }
 .header__link {
   padding: 5px 0;
+  display: flex;
+  align-items: center;
   color: var(--sub-text-color);
 }
 .header__link:hover,
 .header__link:focus {
   color: var(--accent-color);
+}
+.header__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+.header__icon:hover {
+  fill: var(--accent-color);
 }
 .footer {
   padding: 60px 0;
