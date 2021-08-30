@@ -108,7 +108,7 @@
   font-size: 16px;
   color: var(--sub-text-color);
 }
-.social-list {
+.team__social-list {
   margin: 16px 32px 0 32px;
   display: flex;
   justify-content: center;
