@@ -123,6 +123,10 @@ button {
   padding: 60px 0;
   background: var(--dark-bg);
 }
+.footer__inner {
+  display: flex;
+  justify-content: start;
+}
 .footer__logo {
   margin-bottom: 20px;
   display: inline-block;
@@ -146,4 +150,45 @@ button {
 }
 .footer__addr--mb {
   margin-bottom: 9px;
+}
+.footer__social {
+  margin-top: 12px;
+  margin-left: 70px;
+}
+.footer__welcome {
+  font-weight: 700;
+  font-size: inherit;
+  text-transform: uppercase;
+  color: var(--light-text-color);
+}
+.social-list__item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-list__link {
+  height: 44px;
+  width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.team__social-link {
+  fill: var(--icon-color);
+}
+.social-list__link:hover,
+.social-list__link:focus {
+  background-color: var(--accent-color);
+  fill: var(--light-text-color);
+  transition: 0.2s;
+}
+.footer__social-list {
+  display: flex;
+  margin-top: 20px;
+}
+.footer__social-list:not(:last-child) {
+  margin-right: 10px;
+}
+.footer__social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--light-text-color);
 }
