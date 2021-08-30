@@ -131,3 +131,31 @@
   fill: var(--light-text-color);
   transition: 0.2s;
 }
+.clients__list {
+  display: flex;
+}
+.clients__item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients__link {
+  min-height: 92px;
+  min-width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+  color: var(--icon-color);
+}
+.clients__link:hover,
+.clients__link:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+  transition: 0.2s;
+}
+.clients__icon {
+  fill: currentColor;
+}
+.clients__icon:hover {
+  fill: var(--accent-color);
+}
